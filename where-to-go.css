@@ -1,0 +1,212 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #604f4f;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .navbar-brand img {
+    width: 20px;
+    height: auto;
+    
+  }
+  .navbar-brand{
+    color: rgb(18, 184, 54);
+}
+.form-control::placeholder{
+    color: brown;
+}
+.row1{
+  background-color: #dedae4;
+}
+#myCarousel .carousel-inner .carousel-item .carousel-caption{
+  background-color: rgba(11, 11, 11,0.2);
+}
+*{
+  box-sizing: border-box;
+}
+
+.column-video{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  min-height: 400px;
+  text-align: center;
+}
+.row-video:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+iframe {
+  width: 100%;
+  border: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .column-video {
+    width: 100%;
+  }
+}
+footer {
+  background: #061D25;
+  padding: 10px 0;
+  text-align: center;
+}
+footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+footer a:hover {
+  color: white;
+}
+
+@media screen and (max-width:600px)
+{
+  .content h1{
+    font-size: 36px;
+    line-height: 50px;
+    
+  }
+  
+}
+
+@media screen and (max-width:600px)
+{
+  .content h1{
+    font-size: 36px;
+    line-height: 50px;
+    
+  }
+  
+}
+@media only screen and (max-width: 767px){
+  #navbarCollapse .navbar-nav .nav-item .nav-link{
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+header .navbar .navbar-toggler{
+  border: solid 1px rgb(245, 240, 240);
+  background-color:ghostwhite;
+}
+header .navbar .navbar-toggler .navbar-toggler-icon{
+  color:rgb(245, 240, 240) ;
+}
+
+
+
+
+
+
+
+
